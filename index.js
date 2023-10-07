@@ -630,7 +630,7 @@ function factory(name,age,rank,country) {
 }
 
 let fact = factory("Junaid",22,5,"pakistan")
-// console.log(fact);
+console.log(fact);
 
 
 // Constructor methods
@@ -642,7 +642,7 @@ function student(name,age,rank,country) {
 }
 
 let student2 = new student("Adnan",29,4,"Pakistan");
-// console.log(student2);
+console.log(student2);
 
 //  ---------- End Question -------- 
 
