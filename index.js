@@ -685,3 +685,7 @@ let obj22 = {
 }
 
 console.log(obj22["name"],obj22["age"]);
+
+function name(params) {
+    
+}
