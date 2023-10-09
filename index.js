@@ -180,6 +180,13 @@ console.log(reverse("hellow world"))
 
 
 
+
+
+                                            // new  QUESTION AND ANSWER //
+
+
+
+
 // JAVASCRIPT 2nd QIESTION && ANSWER
 
 // Question #1 Swapping Variable
@@ -363,7 +370,7 @@ showStringProperties(Technology);
 //  ---------- End Question -------- 
 
 
-// Question # 9 Write a function which calculate the sum of multiples of 3 and 5 for a given limit
+// Question #9 Write a function which calculate the sum of multiples of 3 and 5 for a given limit
 
 function sumOfMultiples(currLimite) {
     let sum = 0;
@@ -662,14 +669,19 @@ let students2 = new student("adnan",21,4,"England");
 console.log(students2);
 
 
-// function objEquality(obj1,obj2) {
-//     return obj1.name === obj2.name && obj1.age === obj2.age && obj1.rank === obj2.rank && obj1.country === obj2.country
-        
+function objEquality(obj1,obj2) {
+    return (obj1.name === obj2.name ) && (obj1.age === obj2.age )
+         &&(obj1.rank === obj2.rank) && (obj1.country === obj2.country);  
+}
 
-      
-// }
+console.log(`is Equal`,objEquality(students1,students2));
 
-// console.log(`is Equal`,objEquality(students1,student2));
+//  ---------- End Question -------- 
 
+let obj22 = {
+    name : "adnan",
+    age : 21,
+    // my Field : "web DEV",
+}
 
-  
+console.log(obj22["name"],obj22["age"]);
