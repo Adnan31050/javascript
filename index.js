@@ -656,7 +656,7 @@ console.log(student2);
 
 // Question # 24 Write function to check object equality
 
-function student(name,age,rank,country) {
+ function student(name,age,rank,country) {
     this.name = name
     this.age = age
     this.rank = rank
@@ -678,14 +678,3 @@ console.log(`is Equal`,objEquality(students1,students2));
 
 //  ---------- End Question -------- 
 
-let obj22 = {
-    name : "adnan",
-    age : 21,
-    // my Field : "web DEV",
-}
-
-console.log(obj22["name"],obj22["age"]);
-
-function name(params) {
-    
-}
